@@ -1,6 +1,9 @@
 #include <iostream>
 using namespace std;
 
+// Dont worry about it, we shall come to it when discussing functions
+int mulplyby3(int num); // function prototype
+
 int main(){
     
     
@@ -150,7 +153,7 @@ int main(){
     
     cout << "\n" << "\n";
     
-    // infinite loop
+  /*  // infinite loop
     
     int inf {};
  
@@ -160,6 +163,7 @@ int main(){
     {
         cout << "This loop will run forever.\n";
     }
+     * /
  
     
     /*
@@ -178,8 +182,14 @@ int main(){
     }
     */
     
-
+    // ---------------------------------------------------------------
+    // ----------------------Functions--------------------------------
     
+    int number, response;
+    cout<<"Please enter a number:";
+    cin>>number;
+    response = mulplyby3(number); //function call
+    cout<< "The answer is "<<response <<endl;
     
     return 0;
     
@@ -188,8 +198,16 @@ int main(){
     
     // Big Thanks Mark 
     
-    // For further Questions reach me on twitter @okello_mark
-    
+    // For further Questions reach me on twitter @okello_mark    
         
     
+    }
+    
+    //multiplyby3 function
+    int mulplyby3 (int num)
+    {
+        int answer;
+        //local variable
+        answer = 3 * num;
+        return (answer);
     }
