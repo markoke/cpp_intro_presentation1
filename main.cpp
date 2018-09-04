@@ -20,12 +20,12 @@ int main(){
     //------------------------------------------------------
     //-------------Operators and logic----------------------
     
-    int x, y;
+    int p, q;
     int i {10}, j {10};
-    x = ++i; //add one to i, store the result back in x
-    y = j++; //store the value of j to y then add one to j
-    cout << x << endl; //11 the one of ++11
-    cout << y <<endl; //10 the one of 10++
+    p = ++i; //add one to i, store the result back in x
+    q = j++; //store the value of j to y then add one to j
+    cout << p << endl; //11 the one of ++11
+    cout << q <<endl; //10 the one of 10++
     cout <<"\n";
 
 
@@ -80,16 +80,16 @@ int main(){
     //----------------------------------------------------------------
     //----------------- condition and iteration-----------------------
     
-    int x {};
+    int m {};
     
     cout << "Enter the number to test:";
-    cin >>x; 
+    cin >>m; 
     // if statement
-    if (x == 100){
-        cout << "x is 100" <<endl;
+    if (m == 100){
+        cout << "m is 100" <<endl;
     }
     else {
-        cout << "X is not 100"<<endl;
+        cout << "m is not 100"<<endl;
         }
         
 
@@ -137,15 +137,15 @@ int main(){
     cout << "\n" << "\n";
     // while loop in c++ plus
     // initialization expression
-    int i = 1;
+    int k = 1;
  
     // test expression
-    while (i < 6)
+    while (k < 6)
     {
         cout << "Hello World\n";
  
         // update expression
-        i++;
+        k++;
     }
     
     cout << "\n" << "\n";
@@ -178,6 +178,9 @@ int main(){
     }
     */
     
+
+    
+    
     return 0;
     
     // We shall build up from here next time!.
@@ -187,5 +190,6 @@ int main(){
     
     // For further Questions reach me on twitter @okello_mark
     
+        
     
     }
